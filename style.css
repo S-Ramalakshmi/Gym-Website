@@ -7,7 +7,7 @@
 
 :root{
     --font-sub:20px;
-    --font-num:24px;
+    --font-num:28px;
     --mob-font:16px;
 }
 
@@ -250,6 +250,7 @@
 .num-icon{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .num-icon img{
@@ -477,10 +478,6 @@ label {
 
 
 
-
-
-
-
 @media (max-width:900px){
 
 
@@ -582,7 +579,6 @@ label {
     gap: 10px;
 
 }
-
 
 
 .complete{
@@ -695,7 +691,7 @@ label {
 }
 
 
-@media (max-width:425px){
+@media (max-width:450px){
     .card-name{
     font-size: 18px;
 }
